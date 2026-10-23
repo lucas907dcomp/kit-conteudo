@@ -1,0 +1,18 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../marca/tokens.css">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  #arte { width: 1080px; height: 1350px; background: var(--fundo); color: var(--texto); font-family: var(--fonte-texto);
+          display: grid; grid-template-rows: auto 1fr auto; padding: 80px; gap: 48px; }
+  h1 { font-family: var(--fonte-titulo); font-weight: var(--peso-titulo); font-size: 96px; line-height: 1.02; height: 200px; overflow: hidden; }
+  .vitrine { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .vitrine figure { margin: 0; background: var(--fundo-foto); border-radius: var(--raio); display: grid; place-items: center; overflow: hidden; }
+  .vitrine img { width: 86%; height: 86%; object-fit: contain; }
+  footer { display: flex; justify-content: space-between; align-items: baseline; font-size: 34px; }
+  .preco { font-family: var(--fonte-titulo); font-size: 64px; color: var(--destaque); white-space: nowrap; overflow: hidden; max-width: 520px; }
+</style></head><body>
+<div id="arte">
+  <h1 data-texto="titulo">{{titulo}}</h1>
+  <div class="vitrine"><figure><img src="{{foto1}}"></figure><figure><img src="{{foto2}}"></figure></div>
+  <footer><span>{{instagram}}</span><span class="preco" data-texto="preco">{{preco}}</span></footer>
+</div></body></html>

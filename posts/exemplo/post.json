@@ -1,0 +1,9 @@
+{
+  "tema": "Exemplo: como escolher a armação pelo formato do rosto",
+  "slides": [
+    { "tipo": "capa", "fundo": "escuro", "kicker": "Guia rápido", "titulo": "A armação certa começa pelo *formato do rosto.*" },
+    { "tipo": "texto", "foto": "oculos-a.png", "titulo": "Rosto redondo", "texto": "Armações retangulares dão linha e alongam." },
+    { "tipo": "texto", "titulo": "O que olhar na loja", "itens": ["Largura igual à do rosto", "Ponte apoiada sem apertar", "Sobrancelha aparecendo por cima"] },
+    { "tipo": "cta", "fundo": "escuro", "titulo": "Quer ajuda para *escolher a sua?*", "texto": "Venha provar na loja ou chame no direct.", "botao": "Chamar no direct" }
+  ]
+}

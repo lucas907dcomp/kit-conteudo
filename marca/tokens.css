@@ -1,0 +1,18 @@
+/* Design system da loja: FONTE ÚNICA de cores e fontes. Tudo (carrossel, modelos, vídeo) lê daqui.
+   Valores provisórios: a skill /marca troca pelos da loja. */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Inter:wght@400..600&display=swap');
+:root {
+  --fundo: #F5F2EC;            /* fundo claro dos slides */
+  --fundo-escuro: #1C1B19;     /* slides escuros (capa, fechamento) */
+  --texto: #1C1B19;
+  --texto-claro: #F5F2EC;      /* texto sobre o fundo escuro */
+  --destaque: #B0472B;         /* a cor da marca: só em destaque, botão, detalhe */
+  --destaque-no-escuro: #E08A6F;
+  --texto-no-destaque: #FFFFFF;
+  --fundo-foto: #ECE7DF;       /* atrás de foto de produto recortada */
+  --encaixe-foto: cover;       /* contain para produto em fundo branco/transparente */
+  --fonte-titulo: 'Fraunces', serif;
+  --peso-titulo: 350;
+  --fonte-texto: 'Inter', sans-serif;
+  --raio: 28px;
+}
