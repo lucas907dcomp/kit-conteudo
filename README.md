@@ -8,7 +8,7 @@ Vem com o que já foi aprendido fazendo isso de verdade: os motores, o processo 
 2. Instale o **Homebrew** (https://brew.sh) e o **Google Chrome**, se ainda não tiver.
 3. No Terminal:
    ```bash
-   git clone <url-deste-repositorio> ~/kit-conteudo
+   git clone https://github.com/lucas907dcomp/kit-conteudo ~/kit-conteudo
    cd ~/kit-conteudo
    bash setup.sh
    claude
